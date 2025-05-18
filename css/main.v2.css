@@ -177,7 +177,7 @@
   
   .post-header .meta {
     font-size: 15px;
-    color: #818181;
+    color: #818181 !important;
     margin-top: 5px;
   }
   
@@ -185,6 +185,9 @@
   
   .post-content > * { margin: 20px 0; }
   
+  time.dt-published {
+    color: #818181;
+  }
   
   .post-content h1,
   .post-content h2,
