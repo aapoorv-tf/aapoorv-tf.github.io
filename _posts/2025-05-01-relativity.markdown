@@ -6,17 +6,18 @@ date:   2025-04-30 11:00:00
 mathjax: true
 ---
 
-For over 200 years, Newton's laws were believed to be correct but in the early 20th Century, the error in these laws and their correction was discovered by Einstein. According to the Galilean relativity - laws of motion must be the same in all inertial frames of reference. This was used as the basis of Newtonian mechanics. Newton's laws were invariant to Galiliean transformation, for example imagine two frames of reference, one is at rest (Alice) and the other is moving with a constant velocity `v` (Bob)
+For over 200 years, Newton's laws were believed to be correct but in the early 20th Century, the error in these laws and their correction was discovered by Einstein. The physics you learnt in high school was slightly wrong or rather a good approximation of our physical reality. According to the Galilean relativity - laws of motion must be the same in all inertial frames of reference (frames that are at rest or moving with constant velocity, and not under any acceleration). Let's take two trains side by side, one at rest and the other is moving forward. Imagine yourself in the moving one and when you look outside the window it seems the other train is moving backward. Suddenly you are not sure is your train moving forward? Or is the other train moving backward? (Unless ofcourse you look at the ground, trees and all but let's ignore them). In your perspective (frame) you are not moving, you and your train both are at rest, try throwing a ball straight up and it would land back in your hand. The physics governing the motion of the ball is the same whether the train is moving or not. This is Galiliean relativity. From inside the train, there is no mechanical experiment (like dropping a ball or throwing it) you can perform that will tell you whether your train is at rest or moving at constant velocity. Any experiment performed in a non-accelerating moving frame should yield the same result as when done in the rest frame thus showing laws of mechanics do not change between uniformly moving frames. *You can't detect absolute motion - only relative motion*. This was used as the basis of Newtonian mechanics. Newton's laws were invariant to Galiliean transformation. For example, let's take two inertial reference frames, one is at rest (Alice) and the other is moving with a constant velocity `v` (Bob)
 
-To Bob the position of an event at point P is `(x, y)` and for Alice moving at velocity `v` the same event at time `t` is at position ``P`(x`, y`)``. Here $x', y', t'$ are the two coordinates and the time measured by Bob in the moving frame
+To Alice the position of an event at point P is `(x, y)` and for Bob moving at velocity `v` the same event at time `t` is at position ``P`(x`, y`)``. 
 
-<img src="/assets/imgs/galtransformation.png" style="max-width:70%; height:250px;">
+<img src="/assets/imgs/galtransformation.png" style="max-width:100%; height:auto; display:block; margin:auto;">
 
-If the origins of the frames concides at time t = 0, the galilean transformation for position is
+
+If the origins of the frames concides at time t = 0, the galilean transformation for position is (Here $x', y', t'$ are the two coordinates and the time measured by Bob in the moving frame)
 
 - $x' = x - vt$ 
 - $y' = y$
-- $t' = t$ (Obviously, time is same for both the inertial frames)
+- $t' = t$ (Time is same for both the inertial frames)
 
 To obtain the velocity transformation we can differentiate the position transformation w.r.t to time
 
