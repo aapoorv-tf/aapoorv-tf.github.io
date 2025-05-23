@@ -24,7 +24,7 @@ To obtain the velocity transformation we can differentiate the position transfor
 - $dx'/dt' = dx/dt - v$ (since $t' = t$)
 - $dy'/dt' = dy/dt$
 
-In component form this would be $v' = u - v$ ($u$ is velocity observed by Bob of the object at point P in the rest frame). Now to obtain the acceleration we can differentiate again w.r.t to time
+In component form this would be $v' = u - v$ ($u$ is the velocity observed by Alice of the object at point P in the rest frame). Now to obtain the acceleration we can differentiate again w.r.t to time
 
 - $d^2x'/dt'^2 = d^2x/dt^2$  (since $t' = t$ and $v$ is constant)
 - $d^2y'/dt'^2 = d^2y/dt^2$
@@ -36,9 +36,10 @@ In 1865, James Clerk Maxwell presented his electromagnetic theory which predicte
 - ***Speed of a wave remains unaffected for a moving source.*** Let's consider a paddle device generating waves in water. If we start moving this paddle, the waves generated would only be closer to each other in the direction the device is moving and not increasing the wave speed. The actual molecules are not moving with the wave, they are just going up and down. It's the pattern that's moving. Therefore with a moving source the frequency increases. A real life example would be a train moving towards you at the station would have a higher pitch (The speed of sound remains the same) and as it goes by the pitch becomes lower (Frequency decreases)
 - ***Speed of a wave changes with a moving medium.*** If the molecules themselves are moving, it adds to the speed at which the disturbance is propogating (Speed of the medium $\pm$ Speed of wave)
 
-Given that for a moving medium we observe a change in the speed of the wave, then the same must be true for light waves. For a moving observer, the aether medium would in a relative motion and observe a change in the speed of light. An experiment was proposed by Michelson and Morley in 1885 to detect the motion of earth through this "aether" frame or detecting the "aether" itself cause if it did exist, the speed of light would change for the moving observer.
+Given that for a moving medium we observe a change in the speed of the wave, then the same must be true for light waves. For a moving observer, the aether medium would be in relative motion and observe a change in the speed of light. Multiple attempts were made to detect Earth's motion through this hypothetical aether. The most famous was the one proposed by Michelson and Morley in 1887.
 
-Here's how the experiment was set up-
+#### The Michelson-Morley Experiment
+This experiment was performed with an apparatus as shown above. It was mainly comprised of a light source, two mirrors and a half silvered mirror, all mounted on a rigid base. 
 
 > Time is suspect
 
