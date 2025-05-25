@@ -44,12 +44,12 @@ Given that for a moving medium we observe a change in the speed of the wave, the
 This experiment was performed with an apparatus as shown above. It was mainly comprised of a light source $A$, two mirrors $C$ and $D$, and a half silvered mirror $B$, all mounted on a rigid base. The mirrors are placed at an equal distance $L$ from the silver plate. An oncoming beam of light would be split by the plate in two perpendicular directions to the mirrors, where they get reflected back to the plate and are finally recombined as a superposed beam. If the apparatus is at rest, the time taken by the two beams to go from the plate to their respective mirrors and back will be the same, but if it is moving at a constant velocity $v$, the times taken would differ. Let us see why.
 
 #### From the Perspective of an Observer Moving with the Apparatus
-This situation is similar to a boat moving upstream, downstream or perpendicular to the flow of the river. Replace the boat with a light beam, and the river with the aether wind moving with the relative velocity $v$. The light beam moving upstream (From $B$ to $D$) has its velocity reduced due to $c - v$, and when it bounces back from the mirror it moves downstream (From $D$ to $B$) with its velocity increased to $c + v$ (Moving medium affects the wave speed). The times taken would be $t_1 =$ $L \over{c - v}$ to arrive at the mirror $D$ and $t_2 =$ $L \over{c + v}$ to arrive back at the plate $B$. In the transverse direction, the light beam would be facing the wind in the perpendicular direction. To reach the mirror $C$ it needs to move at a certain angle such that due to the wind the effective velocity would be in the correct direction towards the mirror. Referring the below diagram it is easy to calculate this effective velocity using vector addition and the pythogaras theorem. $v_{actual} =$ $\sqrt{c^2 - v^2}$. The time taken to travel back and forth in the transverse direction would be $t_3 =$ $2L \over v_{actual}$
+This situation is similar to a boat moving upstream, downstream or perpendicular to the flow of the river. Replace the boat with a light beam, and the river with the aether wind moving with the relative velocity $v$. The light beam moving upstream (From $B$ to $D$) has its velocity reduced due to $c - v$, and when it bounces back from the mirror it moves downstream (From $D$ to $B$) with its velocity increased to $c + v$ (Moving medium affects the wave speed). The times taken would be $t_1 =$ $L \over{c - v}$ to arrive at the mirror $D$ and $t_2 =$ $L \over{c + v}$ to arrive back at the plate $B$. In the transverse direction, the light beam would be facing the wind in the perpendicular direction. To reach the mirror $C$ it needs to move at a certain angle such that due to the wind the effective velocity would be in the correct direction towards the mirror. Referring the below diagram it is easy to calculate this effective velocity using vector addition and the pythogoras theorem. $v_{actual} =$ $\sqrt{c^2 - v^2}$. The time taken to travel back and forth in the transverse direction would be $t_3 =$ $2L \over v_{actual}$
 
 <img src="/assets/imgs/riveranal.png" style="max-width:40%; height:auto; display:block; margin:auto;">
 
 #### From the Perspective of an Observer Resting in the Aether 
-Let's say the time required by the light to go from $B$ to $D$ is $t_1$ and the time for the return is $t_2$. Now while the light is on its way to the mirror, the apparatus would have moved a distance $vt_1$, the mirror $E$ advances to $E'$. So the light has to traverse a distance of $L + vt_1$ at speed $c$. Therefore,
+Let's say the time required by the light to go from $B$ to $D$ is $t_1$ and the time for the return is $t_2$. Now while the light is on its way to the mirror, the apparatus would have moved a distance $vt_1$, the mirror $D$ advances to $D'$. So the light has to traverse a distance of $L + vt_1$ at speed $c$. Therefore,
 
 $$
 ct_1 = L + vt_1 \quad \text{or} \quad t_1 = \frac{L}{c - v}
@@ -61,8 +61,28 @@ $$
 ct_2 = L - vt_2 \quad \text{or} \quad t_2 = \frac{L}{c + v}
 $$
 
+The total time from the plate to the mirror $D$ and back would be,
 
+$$t_1 + t_2 = \frac{L}{c - v} + \frac{L}{c + v}$$
 
+$$= \frac{2Lc}{c^2 - v^2}$$
 
+$$= \frac{2L}{c(1 - \frac{v^2}{c^2})}$$
 
 <img src="/assets/imgs/movedmmexp.png" style="max-width:60%; height:auto; display:block; margin:auto;">
+
+Let's calculate for $t_3$ now. In this case light would be travelling along the hypotenuse of a triangle. From the diagram above it's evident the triangle is right angled. The mirror C would advance by $vt_3$ to the position $C'$, the distance travelled by light would be $ct_3$ along the hypotenuse and the distance between $B'$ and $C'$ would still be $L$. So, 
+
+$$
+c^{2}t_{3}^{2} = L^2 + v^{2}t_{3}^{2}
+$$
+
+$$
+\implies t_{3}^{2} = \frac{L^2}{c^2 - v^2} \quad \text{or} \quad t_{3} = \frac{L}{\sqrt{c^2 - v^2}}
+$$
+
+$$
+\implies t_{3} = \frac{L}{c\sqrt{1 - \frac{v^2}{c^2}}}
+$$
+
+From the symmetry of the diagram, we can conclude the time for the light to return to the plate would be exactly the same, $t_3$. Therefore in total, the time taken by light in the transverse direction is $2t_3 = \frac{2L}{c\sqrt{1 - \frac{v^2}{c^2}}}$ and in the longitudinal direction is $t_1 + t_2 = \frac{2L}{c(1 - \frac{v^2}{c^2})}$. Clearly, both these times are different, light would take longer to traverse the longitudinal direction. This time difference is exactly what Michelson and Morley were trying to detect in their experiment. However, the actual value of L was quite small around $11$ metres. Using the formula the difference ($t_1 + t_2 - 2t_3$) would be approximately $3.67 \times 10^{-16}$ seconds. There is no way back then one would be able to a measure a time difference this small.
