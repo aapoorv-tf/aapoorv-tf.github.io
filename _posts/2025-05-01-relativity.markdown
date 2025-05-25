@@ -39,11 +39,30 @@ In 1865, James Clerk Maxwell presented his electromagnetic theory which predicte
 Given that for a moving medium we observe a change in the speed of the wave, then the same must be true for light waves. For a moving observer, the aether medium would be in relative motion and observe a change in the speed of light. Multiple attempts were made to detect Earth's motion through this hypothetical aether. The most famous was the one proposed by Michelson and Morley in 1887.
 
 ### The Michelson-Morley Experiment
-This experiment was performed with an apparatus as shown above. It was mainly comprised of a light source, two mirrors and a half silvered mirror, all mounted on a rigid base. The mirrors are placed at an equal distance from the silver plate. An oncoming beam of light would be split by the plate in two perpendicular directions to the mirrors, where they get reflected back to the plate and are finally recombined as a superposed beam. If the apparatus is at rest, the time taken by the two beams to go from the plate to their respective mirrors and back will be the same, but if it is moving at a constant velocity $v$, the times taken would differ. Let us see why --
+<img src="/assets/imgs/mmexp.png" style="max-width:60%; height:auto; display:block; margin:auto;">
+
+This experiment was performed with an apparatus as shown above. It was mainly comprised of a light source $A$, two mirrors $C$ and $D$, and a half silvered mirror $B$, all mounted on a rigid base. The mirrors are placed at an equal distance $L$ from the silver plate. An oncoming beam of light would be split by the plate in two perpendicular directions to the mirrors, where they get reflected back to the plate and are finally recombined as a superposed beam. If the apparatus is at rest, the time taken by the two beams to go from the plate to their respective mirrors and back will be the same, but if it is moving at a constant velocity $v$, the times taken would differ. Let us see why.
 
 #### From the Perspective of an Observer Moving with the Apparatus
-This situation is similar to a boat moving upstream, downstream or perpendicular to the flow of the river. Replace the boat with a light beam, and the river with the aether wind. The light beam moving upstream has its velocity reduced due to $c - v$, and when it bounces back from the mirror it moves downstream with its velocity increased to $c + v$ (Moving medium affects the wave speed). The times taken would be $T_1 =$ $L \over (c - v)$ to arrive at the mirror and $T_2 =$ $L \over (c + v)$ to arrive back at the plate. In the transverse direction, the light beam would be facing the wind in the perpendicular direction. To reach the mirror it needs to move at a certain angle such that due to the wind the effective velocity would be in the correct direction towards the mirror. Referring the below diagram it is easy to calculate this effective velocity using vector addition and the pythogaras theorem. $v_a =$ $\sqrt(c^2 - v)$. The time taken to travel back and forth in the transverse direction would be $T_3 =$ $2L \over v_a$
+This situation is similar to a boat moving upstream, downstream or perpendicular to the flow of the river. Replace the boat with a light beam, and the river with the aether wind moving with the relative velocity $v$. The light beam moving upstream (From $B$ to $D$) has its velocity reduced due to $c - v$, and when it bounces back from the mirror it moves downstream (From $D$ to $B$) with its velocity increased to $c + v$ (Moving medium affects the wave speed). The times taken would be $t_1 =$ $L \over{c - v}$ to arrive at the mirror $D$ and $t_2 =$ $L \over{c + v}$ to arrive back at the plate $B$. In the transverse direction, the light beam would be facing the wind in the perpendicular direction. To reach the mirror $C$ it needs to move at a certain angle such that due to the wind the effective velocity would be in the correct direction towards the mirror. Referring the below diagram it is easy to calculate this effective velocity using vector addition and the pythogaras theorem. $v_{actual} =$ $\sqrt{c^2 - v^2}$. The time taken to travel back and forth in the transverse direction would be $t_3 =$ $2L \over v_{actual}$
+
+<img src="/assets/imgs/riveranal.png" style="max-width:40%; height:auto; display:block; margin:auto;">
 
 #### From the Perspective of an Observer Resting in the Aether 
+Let's say the time required by the light to go from $B$ to $D$ is $t_1$ and the time for the return is $t_2$. Now while the light is on its way to the mirror, the apparatus would have moved a distance $vt_1$, the mirror $E$ advances to $E'$. So the light has to traverse a distance of $L + vt_1$ at speed $c$. Therefore,
+
+$$
+ct_1 = L + vt_1 \quad \text{or} \quad t_1 = \frac{L}{c - v}
+$$
+
+Similarly, on it's way back to the plate, the apparatus would have moved a distance $vt_2$ and the plate advances to the position $B'$, so the return distance of the light is $L - vt_2$. Therefore,
+
+$$
+ct_2 = L - vt_2 \quad \text{or} \quad t_2 = \frac{L}{c + v}
+$$
 
 
+
+
+
+<img src="/assets/imgs/movedmmexp.png" style="max-width:60%; height:auto; display:block; margin:auto;">
