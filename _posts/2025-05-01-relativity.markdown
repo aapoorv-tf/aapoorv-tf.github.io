@@ -87,4 +87,32 @@ $$
 
 From the symmetry of the diagram, we can conclude the time for the light to return to the plate would be exactly the same, $t_3$. Therefore in total, the time taken by light in the transverse direction is $2t_3 = \frac{2L}{c\sqrt{1 - \frac{v^2}{c^2}}}$ and in the longitudinal direction is $t_1 + t_2 = \frac{2L}{c(1 - \frac{v^2}{c^2})}$. Clearly, both these times are different, light would take longer to traverse the longitudinal direction. This time difference is exactly what Michelson and Morley were trying to detect in their experiment. However, the actual value of L was quite small around $11$ metres. Using the formula the difference ($t_1 + t_2 - 2t_3$) would be approximately $3.67 \times 10^{-16}$ seconds. There is no way back then one would be able to a measure a time difference this small. Michelson was a genius experimentalist, so instead of measuring the time difference he decided to measure the interference pattern of the superposed beam. Once both the beams arrive at the detector and there is no time difference then the beams would be in phase (the peaks and the troughs line up), resulting into a constructive interference. They used a sodium light which has a wavelength of $589$ nm and so the period ($wavelength\over c$) will be about $2 \times 10^{-15}$ s -- which is greater than the expected time difference. So if the lights are out of phase due to the time difference, we will observe an interference pattern. There is another minor technical issue, what if the lengths $BC$ and $BD$ are not exactly the same? For this, after the first measurement, they rotated the apparatus by $90^\circ$ and did the measurement again. This way if the lengths were not the same, we would anyway observe an interference pattern and upon rotating the apparatus ($BC$ is now $BD$ and $BD$ is now $BC$), if there was no time difference, the same interference pattern would be observed, otherwise the pattern would change. 
 
-So finally, what was the result of this experiment? No time difference was found. The velocity of earth through the aether could not be detected. *The result was null*. This was very puzzling and disturbing so much so that it haunted Michelson for the rest of his life.
+So finally, what was the result of this experiment? No time difference was found. The velocity of the Earth through the aether could not be detected. *The result was null*. This was very puzzling and disturbing so much so that it haunted Michelson for the rest of his life.
+Physicists like Fitzgerald, Lorentz and Poincare tried coming up with explanations to this result while still involving aether. According to Lorentz, the length of the longitudinal arm (in the direction of the motion) contracts due to the properties of the aether and the factor by which it contracts compensates for the time light would take thus explaining the no time difference between both the directions. He derived a set of equations in a sophisticated manner, and came to be known as the Lorentz transformation equations. But this was very ad-hoc - the contraction of length came out of nowhere and was not satisfying. In 1905, Einstein, working as a patent clerk in the Swiss patent office, approached this from a completely different perspective. He did not involve aether and started with two assumptions-
+- The laws of physics are the same in all inertial frames of reference, including that of electromagnetism
+- THe speed of light is the constant $c$ for all moving observers, regardless of the motion of the source
+
+The implications of these two simple postulates changed the way how we perceive the world and all it took was high-school level maths to realise-
+> Time is Suspect
+
+### The Dilation of Time
+Let's take a light clock analogy, it consists of two mirrors and a light pulse, travelling at speed $c$, getting reflected between the two. Each cycle of the light starting from a mirror and returning back to it corresponds to one tick of a clock. Let's bring back Alice and Bob. Both of them have an identical light clock with the distance between the two mirros being $L$ and Bob starts moving with a constant velocity $v$ while Alice remains stationary and is observing Bob's clock. This situation is very similar to that of the transverse arm in the Michelson-Morley experiment.
+
+In Alice's frame of reference, she would observe the light pulse on Bob's clock to take a diagonal path, at speed $c$. If the duration of one tick (One round trip of the light pulse) as observed by Alice on Bob's clock is $\Delta t_A$, the bottom mirror would have advanced by $v\Delta t_A$ and the light pulse would've travelled a distance $c\Delta t_A$. As evident from the diagram, 
+
+$$\frac{c^{2}\Delta t_A^{2}}{4} = L^{2} + \frac{v^{2}\Delta t_A^{2}}{4}$$
+
+$$ \implies \Delta t_A^{2} = \frac{4L^{2}}{c^2 - v^2} $$
+
+$$ \implies \Delta t_A = \frac{2L}{\sqrt{c^2 - v^2}} $$
+
+$$ \implies \Delta t_A = \frac{2L}{c\sqrt{1 - \frac{v^2}{c^2}}} $$
+
+As far as Bob is concerned, his clock would seem to run normally. Remember the second postulate, speed of light is the same for all moving observers. So, the duration of one tick in his clock as observed by him would simply be $\Delta t_B = \frac{2L}{c}$ as he too, would observe the speed of the light pulse to be $c$. Therefore, the duration of one tick on Bob's clock as observed by Alice is $\Delta t_A$ and the duration of one tick on Bob's clock as observed by Bob is $\Delta t_B$, comparing both the durations, we get
+
+$$ \frac{\Delta t_A}{\Delta t_B} = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \quad \text{or} \quad \Delta t_A = \frac{\Delta t_B}{\sqrt{1 - \frac{v^2}{c^2}}}$$
+
+The factor $\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ is called the Lorentz factor and is denoted by $\gamma$
+
+Thus, we can conclude that clocks run slower in a moving frame of reference as observed by a stationary observer, by a factor of $\gamma$. (To the observer in the moving frame, however, everything appears perfectly normal). As the duration of a tick on the moving clock increases, the time elapsed for a stationary observer would be greater.
+
