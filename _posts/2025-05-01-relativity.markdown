@@ -102,9 +102,7 @@ In Alice's frame of reference, she would observe the light pulse on Bob's clock 
 
 $$\frac{c^{2}\Delta t_A^{2}}{4} = L^{2} + \frac{v^{2}\Delta t_A^{2}}{4}$$
 
-$$ \implies \Delta t_A^{2} = \frac{4L^{2}}{c^2 - v^2} $$
-
-$$ \implies \Delta t_A = \frac{2L}{\sqrt{c^2 - v^2}} $$
+$$ \implies \Delta t_A^{2} = \frac{4L^{2}}{c^2 - v^2} \quad \text{or} \quad \Delta t_A = \frac{2L}{\sqrt{c^2 - v^2}}$$
 
 $$ \implies \Delta t_A = \frac{2L}{c\sqrt{1 - \frac{v^2}{c^2}}} $$
 
@@ -114,5 +112,10 @@ $$ \frac{\Delta t_A}{\Delta t_B} = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \quad \t
 
 The factor $\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ is called the Lorentz factor and is denoted by $\gamma$
 
-Thus, we can conclude that clocks run slower in a moving frame of reference as observed by a stationary observer, by a factor of $\gamma$. (To the observer in the moving frame, however, everything appears perfectly normal). As the duration of a tick on the moving clock increases, the time elapsed for a stationary observer would be greater.
+Thus, we can conclude that clocks run slower in a moving frame of reference as observed by a stationary observer, by a factor of $\gamma$. (To the observer in the moving frame, however, everything appears perfectly normal). As the duration of a tick on the moving clock increases, the time elapsed for a stationary observer would be greater. One might ask that in bob's frame of reference, it's Alice who is moving, so would her clock appear to be moving slowly to Bob? Yes, absolutely. It goes both ways since motion is relative. This can lead to paradoxes, which technically aren't since there is another implication due to the constancy of the speed of light which we will cover in the next section.
+Why do we not see the effect of time dilation in day to day life?  Everyday velocities are significantly slower than the speed of light due to which the Lorentz factor is almost equal to 1 and any effect is negligible. Here's a table showing different Lorentz Factors corresponding to their velocities-
+
+
+### The Relativity of Simultaneity
+
 
