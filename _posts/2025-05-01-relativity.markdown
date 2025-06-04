@@ -98,6 +98,21 @@ The implications of these two simple postulates changed the way how we perceive 
 ### The Dilation of Time
 Let's take a light clock analogy, it consists of two mirrors and a light pulse, travelling at speed $c$, getting reflected between the two. Each cycle of the light starting from a mirror and returning back to it corresponds to one tick of a clock. Let's bring back Alice and Bob. Both of them have an identical light clock with the distance between the two mirros being $L$ and Bob starts moving with a constant velocity $v$ while Alice remains stationary and is observing Bob's clock. This situation is very similar to that of the transverse arm in the Michelson-Morley experiment.
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+  <figure style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/imgs/lightclockbob.png" style="max-width:40%; height:auto;">
+    <figcaption>Bob's Light Clock in his Frame</figcaption>
+  </figure>
+
+  <figure style="flex: 1; min-width: 200px; text-align: center;">
+    <img src="/assets/imgs/lightclockalice.png" style="max-width:95%; height:auto;">
+    <figcaption>Bob's Light Clock in Alice's Frame</figcaption>
+  </figure>
+
+</div>
+
+
 In Alice's frame of reference, she would observe the light pulse on Bob's clock to take a diagonal path, at speed $c$. If the duration of one tick (One round trip of the light pulse) as observed by Alice on Bob's clock is $\Delta t_A$, the bottom mirror would have advanced by $v\Delta t_A$ and the light pulse would've travelled a distance $c\Delta t_A$. As evident from the diagram, 
 
 $$\frac{c^{2}\Delta t_A^{2}}{4} = L^{2} + \frac{v^{2}\Delta t_A^{2}}{4}$$
@@ -112,10 +127,9 @@ $$ \frac{\Delta t_A}{\Delta t_B} = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \quad \t
 
 The factor $\frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ is called the Lorentz factor and is denoted by $\gamma$
 
-Thus, we can conclude that clocks run slower in a moving frame of reference as observed by a stationary observer, by a factor of $\gamma$. (To the observer in the moving frame, however, everything appears perfectly normal). As the duration of a tick on the moving clock increases, the time elapsed for a stationary observer would be greater. One might ask that in bob's frame of reference, it's Alice who is moving, so would her clock appear to be moving slowly to Bob? Yes, absolutely. It goes both ways since motion is relative. This can lead to paradoxes, which technically aren't since there is another implication due to the constancy of the speed of light which we will cover in the next section.
-Why do we not see the effect of time dilation in day to day life?  Everyday velocities are significantly slower than the speed of light due to which the Lorentz factor is almost equal to 1 and any effect is negligible. Here's a table showing different Lorentz Factors corresponding to their velocities-
-
+Thus, we can conclude that clocks run slower in a moving frame of reference as observed by a stationary observer, by a factor of $\gamma$. (To the observer in the moving frame, however, everything appears perfectly normal). As the duration of a tick on the moving clock increases, the time elapsed for a stationary observer would be greater. One might ask that in bob's frame of reference, it's Alice who is moving, so would her clock appear to move slowly to Bob? Yes, absolutely. It goes both ways since motion is relative. This can lead to paradoxes, which technically aren't since there is another implication due to the constancy of the speed of light which we will cover in the next section.
+Why do we not see the effect of time dilation in day to day life? Everyday velocities are significantly slower than the speed of light and so the term $\frac{v}{c}$ is approximately $0$ (We're also squaring this value) due to which the Lorentz factor is almost equal to 1 and any effect is negligible.
 
 ### The Relativity of Simultaneity
-
+In the 19th century when the railroads were expanding, a good time keeping system was required so that every city had more or less the same time and the clocks between various stations are synchronised. There were a lot of patents and inventions for this problem that people submitted at places like the Swiss patent office where Einstein was working. He was getting a lot of this and probably one of the reasons that led to his key insight in developing the special theory of relativity. So how do we synchronise the clocks? One way is to bring all the clocks together set the same time and move them to their respective places. But now we know that moving the clocks is out of the question as it would lead to time dilation.
 
