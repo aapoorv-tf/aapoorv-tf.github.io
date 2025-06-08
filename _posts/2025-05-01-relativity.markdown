@@ -133,6 +133,16 @@ Time dilation is not only true for light clocks but for normal analog/digital cl
 Why do we not see the effect of time dilation in day to day life? Everyday velocities are significantly slower than the speed of light and so the term $\frac{v}{c}$ is approximately $0$ (We're also squaring this value) due to which the Lorentz factor is almost equal to 1 and any effect is negligible.
 
 ### Length Contraction
+
+<figure style="text-align: center;">
+  <img src="/assets/imgs/lengthcont1.png" style="max-width:60%; height:auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">Spaceship's left end is aligned with Alice. Both their clocks read 0</figcaption>
+</figure>
+<figure style="text-align: center;">
+  <img src="/assets/imgs/lengthcont2.png" style="max-width:60%; height:auto;">
+  <figcaption style="font-size: 0.9em; color: #555;">Spaceship's right end is aligned with Alice</figcaption>
+</figure>
+
 Imagine Bob in a spaceship of length $L_B$ moving with velocity $v$ towards left. Alice, as usual, is a stationary observer along with her clock. Now, in Bob's frame of reference, he would notice Alice moving towards right with velocity $v$. In the beginning, the left end of Bob's spaceship was aligned with Alice and after time $t_{B} = \frac{L_B}{v}$, the right end of the spaceship has reached Alice. As far as Bob's concerned it's Alice who has travelled from the left end to the right end of the spaceship and the time elapsed on her clock as observed by Bob would be $t_{A} = \frac{t_{B}}{\gamma}$, therefore the distance Alice travelled is $vt_{A} = v\frac{t_{B}}{\gamma}$ or $L_{A} = \frac{L_{B}}{\gamma}$. Hence, the length observed by Alice for Bob's spaceship is $\frac{L_{B}}{\gamma}$. More generally, $L_{B}$ is the proper length, i.e, the distance measured by an observer in their own frame of reference, in this case, Bob would measure his spaceship's length, which is at rest in his frame, to be $L_{B}$, while to an outside observer, Alice, this length would appear to be contracted by a factor of $\gamma$. 
 
 $$L_{moving} = \frac{L_{rest}}{\gamma}$$
