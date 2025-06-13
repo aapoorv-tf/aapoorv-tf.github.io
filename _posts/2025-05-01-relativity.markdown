@@ -159,7 +159,9 @@ $$4h^2 = c^{2}t_A^{2} - x_A^2$$
 
 $$4h^2 = c^{2}t_K^{2} - x_K^2$$
 
-Comparing these equations, we can see that the value $c^2t^2 - x^2$ remains contant in the all the frames of reference. It's invariant.
+Comparing these equations, we can see that the value $c^2t^2 - x^2$ remains constant in the all the frames of reference. It's invariant and is denoted as $\Delta s^2$. This can be extended to all the dimensions of the space, giving us a more general form
+
+$$\Delta s^2 = c^2\Delta t^2 - (\Delta x^2 + \Delta y^2 + \Delta z^2)$$
 
 
 ### The Relativity of Simultaneity
