@@ -225,21 +225,41 @@ Setting $x_B = 0$ should satisfy the equations we derived for the special case w
 
 $$c^2(Gx_B + Ht_B)^2 - (Mx_B + Nt_B)^2 = c^2t_B^2 - x_B^2$$
 
-$$\implies c^2(G^2x_B^2 + H^2t_B^2 + 2Gx_BHt_B) - (M^2x_B^2 + N^2t_B^2 + 2Mx_BNt_B) = c^2t_B^2 - x_B^2$$
+<div class="math-block-wrapper">
+$$
+\implies\ c^2(G^2x_B^2 + H^2t_B^2 + 2Gx_BHt_B) - (M^2x_B^2 + N^2t_B^2 + 2Mx_BNt_B) = c^2t_B^2 - x_B^2
+$$
+</div>
 
 Substituting the values of $H$ and $N$,
 
-$$\implies c^2(G^2x_B^2 + \gamma^2t_B^2 + 2Gx_B\gamma t_B) - (M^2x_B^2 + \gamma^2v^2t_B^2 + 2Mx_B\gamma vt_B) = c^2t_B^2 - x_B^2$$
+<div class="math-block-wrapper">
+$$
+\implies\ c^2(G^2x_B^2 + \gamma^2t_B^2 + 2Gx_B\gamma t_B) - (M^2x_B^2 + \gamma^2v^2t_B^2 + 2Mx_B\gamma vt_B) = c^2t_B^2 - x_B^2
+$$
+</div>
 
-Segregating the variables $x_B^2$, $t_B^2$ and $x_Bt_B$, 
+Segregating the variables $x_B^2$, $t_B^2$ and $x_Bt_B$,
 
-$$\implies x_B^2(G^2c^2 - M^2) + t_B^2(c^2\gamma^2 - \gamma^2v^2) + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2$$
+<div class="math-block-wrapper">
+$$
+\implies\ x_B^2(G^2c^2 - M^2) + t_B^2(c^2\gamma^2 - \gamma^2v^2) + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2
+$$
+</div>
 
-Notice that $c^2\gamma^2 - \gamma^2v^2$ is just $c^2$
+Notice that $c^2\gamma^2 - \gamma^2v^2$ is just $c^2$,
 
-$$\implies x_B^2(G^2c^2 - M^2) + c^2t_B^2 + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2$$
+<div class="math-block-wrapper">
+$$
+\implies\ x_B^2(G^2c^2 - M^2) + c^2t_B^2 + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2
+$$
+</div>
 
-$$\implies c^2t_B^2 - x_B^2(M^2 - G^2c^2) + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2$$
+<div class="math-block-wrapper">
+$$
+\implies\ c^2t_B^2 - x_B^2(M^2 - G^2c^2) + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2
+$$
+</div>
 
 The coefficients on both sides of the equation should be equal for the equality to hold. Therefore,
 

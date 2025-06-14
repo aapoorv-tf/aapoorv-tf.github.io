@@ -10,6 +10,17 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.v2.css" | prepend: site.baseurl }}">
 
+    <!-- Custom styles for scrollable math blocks -->
+    <style>
+    .math-block-wrapper {
+      overflow-x: auto;
+      padding: 0.5em 0;
+    }
+    .math-block-wrapper > .MathJax {
+      display: inline-block !important;
+    }
+    </style>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KP4LDEG7BS"></script>
     <script>
