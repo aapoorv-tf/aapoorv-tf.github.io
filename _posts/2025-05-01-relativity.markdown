@@ -96,7 +96,7 @@ Physicists like Fitzgerald, Lorentz and Poincare tried coming up with explanatio
 The implications of these two simple postulates changed the way how we perceive the world and all it took was high-school level maths to realise-
 > Time is Suspect
 
-### The Dilation of Time
+### Time Dilation
 Let's take a light clock analogy, it consists of two mirrors and a light pulse, travelling at speed $c$, getting reflected between the two. Each cycle of the light starting from a mirror and returning back to it corresponds to one tick of a clock. Let's bring back Alice and Bob. Both of them have an identical light clock with the distance between the two mirros being $L$ and Bob starts moving with a constant velocity $v$ while Alice remains stationary and is observing Bob's clock. This situation is very similar to that of the transverse arm in the Michelson-Morley experiment.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
@@ -209,6 +209,57 @@ This is the amount by which the front clock would lag by. In a more general sens
 As for the amount calculated above, let's try to understand why should it be the lag value. When both the flashes of light occur, all of Bob's clock are reading the exact same time, say $t_B$ and he also has photographic evidences of those events which would have been recorded by the respective clocks at the position of the event. For Alice, the first flash of light occurs at $t_{A1}$, she too, has a photographic evidence for the same recorded by her clock at the position of that event, and it will have the readings for both her clock and Bob's clock at that position. Now, these pictures shouldn't contradict with each other. The photos that Bob has shows the time on his leftmost clock and the rightmost clock to be $t_B$. The photo Alice has, should also show the time on Bob's clock when the first flash occured, i.e, the leftmost clock, to be $t_B$ and her clock to read $t_{A1}$. This means, since the second flash has not yet occured for her, Bob's rightmost clock should be behind in time in her perspective! If the next flash occurs after $\Delta t_A$ time has elapsed for Alice (already calculated above), then as observed by her, Bob's rightmost clock should be reading $t_{B} - \frac{\Delta t_{A}}{\gamma}$. Dividing by $\gamma$ because of time dilation -- the rate at which Bob's clocks are ticking is slowed down. When the second flash finally occurs for her, $\frac{\Delta t_{A}}{\gamma}$ time would have elapsed on Bob's clocks and the rightmost clock would ultimately be reading $t_B$, which matches with the photo taken by that clock when the flash occured. It all fits together.
 
 ### Lorentz Transformation
+Given an event recorded by Bob $(x_B, y_B, z_B, t_B)$, what are coordinates of the same event observed by Alice, i.e, $(x_A, y_A, z_A, t_A)$? Recall that in Galilean Transformation, $x_A = x_B + vt_B$, $y_A = y_B$, $z_A = z_B$ and $t_A = t_B$. However due to relativistic effects, we now know $t_A = \gamma t_B$. But this was derived for $x_B = 0$, our time dilation equation assumes everything is happening at $x_B = 0$ for the person who is moving. We want the lorentz transformation to be more general. Lorentz transformation for the case $x_B = 0$ (an event Bob observes at his own location at time $t_B$) is just
+
+$$t_A = \gamma t_B$$
+
+$$x_A = vt_A \quad \text{or} \quad x_A = v\gamma t_B$$
+
+Where $x_A$ is the location of the event observed by Alice at time $t_A$. To find the transformation for an event at any $(x_B, t_B)$ to $(x_A, t_A)$, we need to understand that both space and time are homogenous, the relation between any two times or locations in different frames of reference is simple and linear. Only first powers of $x$ and $t$ should appear. If the transformation is non-linear, it will bend straight lines into curves, i.e, an object travelling in a straight line in uniform motion, would appear to curve in a different frame, and hence accelerating - violating the principle of relativity. Also all inertial frames are equivalent so the transformation should allow you to go back and forth symmetrically and this reciprocity demands that the transformation has an inverse of the *same* form, something that is guaranteed by linear functions. Having said, we expect our transformation equations to be of the form
+
+$$t_A = Gx_B + Ht_B$$
+
+$$x_A = Mx_B + Nt_B$$
+
+Setting $x_B = 0$ should satisfy the equations we derived for the special case which gives us the values $H = \gamma$ and $N = \gamma v$. And we also know that $c^2t_A^2 - x_A^2 = c^2t_B^2 - x_B^2$. Substituting the above equations into the invariant interval, we get
+
+$$c^2(Gx_B + Ht_B)^2 - (Mx_B + Nt_B)^2 = c^2t_B^2 - x_B^2$$
+
+$$\implies c^2(G^2x_B^2 + H^2t_B^2 + 2Gx_BHt_B) - (M^2x_B^2 + N^2t_B^2 + 2Mx_BNt_B) = c^2t_B^2 - x_B^2$$
+
+Substituting the values of $H$ and $N$,
+
+$$\implies c^2(G^2x_B^2 + \gamma^2t_B^2 + 2Gx_B\gamma t_B) - (M^2x_B^2 + \gamma^2v^2t_B^2 + 2Mx_B\gamma vt_B) = c^2t_B^2 - x_B^2$$
+
+Segregating the variables $x_B^2$, $t_B^2$ and $x_Bt_B$, 
+
+$$\implies x_B^2(G^2c^2 - M^2) + t_B^2(c^2\gamma^2 - \gamma^2v^2) + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2$$
+
+Notice that $c^2\gamma^2 - \gamma^2v^2$ is just $c^2$
+
+$$\implies x_B^2(G^2c^2 - M^2) + c^2t_B^2 + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2$$
+
+$$\implies c^2t_B^2 - x_B^2(M^2 - G^2c^2) + x_Bt_B(2G\gamma c^2 - 2M\gamma v) = c^2t_B^2 - x_B^2$$
+
+The coefficients on both sides of the equation should be equal for the equality to hold. Therefore,
+
+$$M^2 - G^2C^2 = 1$$
+
+and
+
+$$2G\gamma c^2 - 2M\gamma v = 0$$
+
+Solving both these equations we get $M = \gamma$ and $G = \frac{\gamma v}{c^2}$. Substituting them both into our transformation equation we find that
+
+$$t_A = \gamma(t_B + \frac{vx_B}{c^2})$$
+
+$$x_A = \gamma(x_B + vt_B)$$
+
+The inverse relation can be found as well, that is if we know the coordinates of an event observed by Alice, the location and time of the event observed by Bob can be calculated using the above equations. Or by simply interchanging $x_B$ with $x_A$ and $t_B$ with $t_A$ and changing the sign of the velocity, since Alice would be moving backwards in Bob's inertial frame.
+
+$$t_B = \gamma(t_A - \frac{vx_A}{c^2})$$
+
+$$x_B = \gamma(x_A - vt_A)$$
 
 
 ### A Real Life Example
